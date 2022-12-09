@@ -1,6 +1,6 @@
 name: LOL
 source: postgre-sql
 type: raw_sql
-rawSql: SELECT * FROM users LIMIT 50;
+rawSql: SELECT * FROM users LIMIT 100;
 isSchema: false
 primaryKey: id
