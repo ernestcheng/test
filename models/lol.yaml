@@ -1,0 +1,6 @@
+name: LOL
+source: postgre-sql
+type: raw_sql
+rawSql: SELECT * FROM users
+isSchema: false
+primaryKey: id
