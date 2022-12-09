@@ -1,0 +1,12 @@
+model: lol
+destination: google-sheets-2
+config:
+  mode: mirror
+  mappings: []
+  sheetName: Sheet1
+  configVersion: 0
+  spreadsheetId: 1IgE6ksTv62MQ1uhz93UyJFI8JgMX5bmYk5APMDeA8RQ
+  autoSyncColumns: true
+schedule:
+  type: manual
+schedulePaused: false
