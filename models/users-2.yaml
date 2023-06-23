@@ -1,0 +1,6 @@
+name: Users
+source: postgre-sql
+type: raw_sql
+rawSql: SELECT * FROM public.users LIMIT 5;
+isSchema: false
+primaryKey: id
