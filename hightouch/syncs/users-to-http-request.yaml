@@ -5,8 +5,8 @@ config:
     body:
       - to: foo
         type: static
-        value: false
-        valueType: BOOLEAN
+        value: null
+        valueType: 'Null'
     method: POST
     enabled: true
     onError: retryNextSync
