@@ -5,6 +5,7 @@ config:
     body:
       - to: foo
         type: static
+        value: null
         valueType: 'Null'
     method: POST
     enabled: true
