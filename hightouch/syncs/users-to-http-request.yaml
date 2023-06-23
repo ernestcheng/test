@@ -1,0 +1,23 @@
+model: users-2
+destination: http-request
+config:
+  add:
+    body:
+      - to: foo
+        type: static
+        valueType: 'Null'
+    method: POST
+    enabled: true
+    onError: retryNextSync
+    timeout: 30
+    bodyType: mappings
+    contentType: application/json
+    hasRateLimit: false
+    bodyUseAllColumns: false
+  change: {}
+  remove: {}
+  skipFirstRun: true
+  configVersion: 1
+schedule:
+  type: manual
+schedulePaused: false
