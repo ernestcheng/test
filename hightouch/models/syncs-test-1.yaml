@@ -1,6 +1,0 @@
-name: Syncs Test 1
-source: postgre-sql
-type: table
-tableName: public.syncs
-isSchema: false
-primaryKey: id
