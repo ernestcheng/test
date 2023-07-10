@@ -1,0 +1,7 @@
+name: Syncs Test 2
+source: postgre-sql
+type: table
+rawSql: SELECT * FROM syncs
+tableName: public.syncs
+isSchema: false
+primaryKey: slug
