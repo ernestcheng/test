@@ -1,6 +1,7 @@
 model: syncs-test-3
 destination: http-request
 config:
+  LOL: true
   add:
     enabled: false
   change: {}
