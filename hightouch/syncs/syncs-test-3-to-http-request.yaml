@@ -1,9 +1,16 @@
 model: syncs-test-3
 destination: http-request
 config:
-  add: {}
+  add:
+    method: POST
+    enabled: true
+    onError: retryNextSync
+    timeout: 30
+    contentType: none
+    hasRateLimit: false
   change: {}
   remove: {}
+  skipFirstRun: true
   configVersion: 1
 schedule:
   type: manual
