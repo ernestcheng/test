@@ -3,6 +3,7 @@ destination: http-request
 config:
   add:
     enabled: false
+  foo: bar
   change: {}
   remove: {}
   configVersion: 1
