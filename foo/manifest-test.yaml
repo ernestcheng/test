@@ -1,0 +1,20 @@
+# READ ONLY FILE
+# Changes made here will be ignored. Please use the Hightouch dashboard to create and edit sources and destinations.
+
+sources:
+  snowflake:
+    name: Snowflake
+    type: snowflake
+  postgre-sql:
+    name: PostgreSQL
+    type: postgres
+destinations:
+  google-sheets:
+    name: Google Sheets
+    type: googlesheets
+  salesforce-marketing-cloud:
+    name: Salesforce Marketing Cloud
+    type: sfmc
+  http-request:
+    name: HTTP Request
+    type: webhookV2
