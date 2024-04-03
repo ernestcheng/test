@@ -1,0 +1,13 @@
+model: users-3
+destination: google-sheets
+config:
+  mode: mirror
+  mappings: []
+  sheetName: Sheet1
+  configVersion: 1
+  spreadsheetId: 12M1EIjBkOMCjLBzwDB1PZAH5hf1k-f5qREXWNl1oC8c
+  sheetSelection: select
+  autoSyncColumns: true
+schedule:
+  type: manual
+schedulePaused: false
