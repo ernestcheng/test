@@ -1,5 +1,5 @@
 name: SELECT 1
 source: postgre-sql
 type: raw_sql
-rawSql: SELECT 1;
+rawSql: SELECT 3;
 primaryKey: '?column?'
