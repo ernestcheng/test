@@ -1,0 +1,5 @@
+name: Changelog
+source: postgre-sql
+type: table
+tableName: public.changelog
+eventTimestampColumn: created_at
