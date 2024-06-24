@@ -1,0 +1,10 @@
+from:
+  slug: users
+  mergeColumns: false
+to:
+  slug: syncs
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: updated_by
+    toColumn: id
