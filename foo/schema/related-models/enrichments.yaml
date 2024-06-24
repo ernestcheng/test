@@ -1,0 +1,4 @@
+name: Enrichments
+source: postgre-sql
+type: table
+tableName: public.users_enrichment

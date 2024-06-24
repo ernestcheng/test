@@ -1,0 +1,4 @@
+name: Users
+source: postgre-sql
+type: table
+tableName: public.users
