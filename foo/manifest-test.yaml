@@ -2,6 +2,9 @@
 # Changes made here will be ignored. Please use the Hightouch dashboard to create and edit sources and destinations.
 
 sources:
+  postgre-sql-local-diffing:
+    name: PostgreSQL (Local diffing)
+    type: postgres
   snowflake:
     name: Snowflake
     type: snowflake
