@@ -3,4 +3,4 @@ source: postgre-sql
 type: raw_sql
 rawSql: SELECT * FROM workspaces
 tableName: public.workspace_resources
-primaryKey: created_at
+primaryKey: id
