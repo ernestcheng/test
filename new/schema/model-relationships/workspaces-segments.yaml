@@ -7,4 +7,4 @@ to:
 cardinality: 1:many
 mapping:
   - fromColumn: id
-    toColumn: workspace_id
+    toColumn: saved_query_id
