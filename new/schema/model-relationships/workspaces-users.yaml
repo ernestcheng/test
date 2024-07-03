@@ -4,7 +4,7 @@ from:
 to:
   slug: users
   mergeColumns: false
-cardinality: '1:1'
+cardinality: 1:many
 mapping:
   - fromColumn: id
     toColumn: workspace_id
