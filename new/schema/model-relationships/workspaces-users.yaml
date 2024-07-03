@@ -2,9 +2,9 @@ from:
   slug: workspaces
   mergeColumns: false
 to:
-  slug: enrichments
+  slug: users
   mergeColumns: false
 cardinality: 1:many
 mapping:
   - fromColumn: id
-    toColumn: user_id
+    toColumn: workspace_id
