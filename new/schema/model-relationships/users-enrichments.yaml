@@ -1,0 +1,10 @@
+from:
+  slug: users
+  mergeColumns: true
+to:
+  slug: enrichments
+  mergeColumns: false
+cardinality: '1:1'
+mapping:
+  - fromColumn: id
+    toColumn: user_id
