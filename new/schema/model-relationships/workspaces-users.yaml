@@ -1,0 +1,10 @@
+from:
+  slug: workspaces
+  mergeColumns: false
+to:
+  slug: users
+  mergeColumns: false
+cardinality: '1:1'
+mapping:
+  - fromColumn: id
+    toColumn: workspace_id
