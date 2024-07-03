@@ -1,0 +1,10 @@
+from:
+  slug: workspaces
+  mergeColumns: false
+to:
+  slug: segments
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: id
+    toColumn: workspace_id
