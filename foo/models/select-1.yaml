@@ -1,5 +1,12 @@
 name: SELECT 1
 source: postgre-sql
 type: raw_sql
-rawSql: SELECT 4;
+rawSql: |-
+  SELECT 1
+  UNION
+  SELECT 2
+  UNION
+  SELECT 4
+  UNION
+  SELECT 5
 primaryKey: '?column?'
