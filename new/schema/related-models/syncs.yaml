@@ -1,4 +1,0 @@
-name: Syncs
-source: postgre-sql
-type: table
-tableName: public.syncs
