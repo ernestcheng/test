@@ -1,7 +1,7 @@
 from:
   slug: workspaces
 to:
-  slug: changelog
+  slug: enrichments
 through:
-  - users-changelog
+  - users-enrichments
   - workspaces-users
