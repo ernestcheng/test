@@ -7,4 +7,6 @@ to:
 cardinality: 1:many
 mapping:
   - fromColumn: id
-    toColumn: google_auth_id
+    toColumn: workspace_id
+  - fromColumn: is_approved
+    toColumn: is_admin
