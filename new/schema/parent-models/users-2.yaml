@@ -1,0 +1,5 @@
+name: Users
+source: snowflake
+type: raw_sql
+rawSql: SELECT * FROM POSTGRES_HTDB_PUBLIC.USERS
+primaryKey: ID

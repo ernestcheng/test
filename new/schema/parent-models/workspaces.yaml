@@ -1,0 +1,5 @@
+name: Workspaces
+source: postgre-sql
+type: table
+tableName: public.workspaces
+primaryKey: id
