@@ -1,4 +1,0 @@
-name: Segments
-source: postgre-sql
-type: table
-tableName: public.segments
