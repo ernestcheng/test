@@ -1,0 +1,5 @@
+name: Salesforce Org (Matching)
+source: postgre-sql
+type: raw_sql
+rawSql: foo
+primaryKey: organization_id
