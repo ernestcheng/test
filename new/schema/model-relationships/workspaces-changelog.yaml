@@ -1,0 +1,7 @@
+from:
+  slug: workspaces
+to:
+  slug: changelog
+through:
+  - users-changelog
+  - workspaces-users
