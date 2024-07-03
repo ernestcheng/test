@@ -1,0 +1,26 @@
+model: select-1
+destination: http-request
+config:
+  add:
+    method: GET
+    enabled: true
+    onError: retryNextSync
+    timeout: 30
+    hasRateLimit: false
+  change:
+    method: GET
+    enabled: true
+    onError: retryNextSync
+    timeout: 30
+    hasRateLimit: false
+  remove:
+    method: GET
+    enabled: true
+    onError: retryNextSync
+    timeout: 30
+    hasRateLimit: false
+  skipFirstRun: false
+  configVersion: 1
+schedule:
+  type: manual
+schedulePaused: false
