@@ -1,5 +1,6 @@
 name: Workspaces
 source: postgre-sql
-type: table
-tableName: public.workspaces
+type: raw_sql
+rawSql: SELECT * FROM workspaces
+tableName: public.workspace_resources
 primaryKey: created_at
